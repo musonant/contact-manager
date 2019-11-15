@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: century Gothic;
+  
+}
+.row{
+  width: 100%;
+}
+.header{
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  padding:15px;
+}
+.app-title{
+  flex: 4;
+}
+.contact-adder{
+  display: flex;
+  flex: 2 ;
+  background-color: gainsboro;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.add-text{
+  flex: 2;
+}
+.add-icon{
+  flex: 1;
+  font-size: 30px;
+  text-align: center;
+}
+.profile-icon{
+  right: 5%;
+  flex: 0.5;
+  margin-left:30px;
+  color: rgb(253, 253, 253);
+  font-size: 45px;
 }
