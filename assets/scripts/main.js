@@ -1,1 +1,1 @@
-alert('This page is all set up!');
+// alert('This page is all set up!');
